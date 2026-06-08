@@ -2,7 +2,7 @@
 
 Estimation scripts for the sanctions-on-innovation analysis. All scripts use `ppmlhdfe` (Poisson PML with high-dimensional fixed effects) and cluster standard errors at the country level. The main sanction intensity index is `si_dir_tot_trade_normalized` at a 2-year lag unless otherwise noted.
 
-Before running, replace the `"path"` placeholder in the `import delimited` call with the path to `final_panel.csv` (output of `pipeline/04_assemble_final_panel.py`).
+Before running, replace the `"path"` placeholder in the `import delimited` call with the path to `analysis_panel.csv` (output of `notebooks/build_panel_indexes.ipynb`).
 
 ## Files
 
