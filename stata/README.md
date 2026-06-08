@@ -17,7 +17,7 @@ Before running, replace the `"path"` placeholder in the `import delimited` call 
 | `heterogeneity_sanction_types_senders_main_results.do` | Heterogeneity by sanction type and sender (9 binary indicators) |
 | `heterogeneity_supplementary_military_arms.do` | Heterogeneity for military and arms sanctions specifically |
 | `Heterogeneity_Hydrocarbon_Dependence_Baseline.do` | Interaction of sanction intensity with oil & gas rents |
-| `fractional_outcomes_ppml_specification_ladder_main_results.do` | PPML specification ladder for fractional outcomes (green share, fossil share, directional ratios) across two sample thresholds |
-| `fractions_logit_baseline.do` | Fractional logit (`fracreg logit`) specification ladder with average marginal effects for the same directional-share outcomes |
-| `fractions_frac_logit_country_exclusion.do` | Fractional logit with country exclusion robustness (full, −CHN, −RUS, −SAU) and true AMEs |
-| `fractional_outputs_ppml_country_exclusion.do` | PPML country exclusion robustness for fractional outcomes (full, −CHN, −RUS, −SAU) |
+| `fractional_outcomes_ppml_specification_ladder_main_results.do` | Fractional outputs, PPML specification ladder for fractional outcomes (green share, fossil share, directional ratios) across two sample thresholds (year FE, year + country FE, full specification) |
+| `fractions_logit_baseline.do` | Fractional outcomes, Fractional logit (`fracreg logit`) specification ladder with average marginal effects for the same directional-share outcomes |
+| `fractions_frac_logit_country_exclusion.do` | Fractional outcomes, Fractional logit with country exclusion (full, −CHN, −RUS, −SAU), output of the do file is directly giving AMEs |
+| `fractional_outputs_ppml_country_exclusion.do` | Fractional outcomes, PPML, full specification, country exclusion (full, −CHN, −RUS, −SAU) |
