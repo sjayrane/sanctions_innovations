@@ -20,3 +20,4 @@ Before running, replace the `"path"` placeholder in the `import delimited` call 
 | `fractional_outcomes_ppml_specification_ladder_main_results.do` | PPML specification ladder for fractional outcomes (green share, fossil share, directional ratios) across two sample thresholds |
 | `fractions_logit_baseline.do` | Fractional logit (`fracreg logit`) specification ladder with average marginal effects for the same directional-share outcomes |
 | `fractions_frac_logit_country_exclusion.do` | Fractional logit with country exclusion robustness (full, −CHN, −RUS, −SAU) and true AMEs |
+| `fractional_outputs_ppml_country_exclusion.do` | PPML country exclusion robustness for fractional outcomes (full, −CHN, −RUS, −SAU) |
