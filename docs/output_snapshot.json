@@ -1,0 +1,71 @@
+{
+  "description": "Pre-refactor checksums for regression check (Step 7). Captured from output/ before directory restructure.",
+  "captured_at": "2026-06-01",
+  "files": {
+    "data/processed/raw_patents_panel_1960_2023.csv": {
+      "md5": "1b5b285ba72a98f0d3a20b616bf65a9d",
+      "rows": 10431,
+      "columns": ["iso3", "priority_year", "ctry_code", "frac_classical_inv", "country_name"]
+    },
+    "data/processed/patents_panel_1960_2023.csv": {
+      "md5": "c56f0705f6c5d31b31ba15100c9575f9",
+      "rows": 13398,
+      "columns": [
+        "iso3", "year", "gdp_pc_current_usd", "gdp_pc_const_2015_usd",
+        "trade_pct_gdp", "fdi_net_inflow_pct_gdp", "gdp_const_2015_usd",
+        "gdp_tot_nominal", "population", "energy_intensity",
+        "oil_rents_pct_gdp", "gas_rents_pct_gdp", "gdp_const_2015_usd_log",
+        "log_gdp_pc_const_2015", "frac_classical_inv"
+      ]
+    },
+    "data/processed/final_panel_with_y_02_patents_sanctions_final.csv": {
+      "md5": "058be2edfb7ed5bfa3685429ba891881",
+      "rows": 13398,
+      "columns": [
+        "iso3", "year", "gdp_pc_current_usd", "gdp_pc_const_2015_usd",
+        "trade_pct_gdp", "fdi_net_inflow_pct_gdp", "gdp_const_2015_usd",
+        "gdp_tot_nominal", "population", "energy_intensity",
+        "oil_rents_pct_gdp", "gas_rents_pct_gdp", "gdp_const_2015_usd_log",
+        "log_gdp_pc_const_2015", "frac_classical_inv",
+        "sanctioned_by_US", "US_arms", "US_military", "US_trade", "US_financial", "US_travel",
+        "sanctioned_by_UN", "UN_arms", "UN_military", "UN_trade", "UN_financial", "UN_travel",
+        "sanctioned_by_EU", "EU_arms", "EU_military", "EU_trade", "EU_financial", "EU_travel",
+        "sanctioned_by_OTHER", "OTHER_arms", "OTHER_military", "OTHER_trade", "OTHER_financial", "OTHER_travel",
+        "any_sanctions", "any_arms", "any_military", "any_trade", "any_financial", "any_travel",
+        "sanction_index", "region_code", "region_name", "sub_region_code", "sub_region_name",
+        "country", "ldc", "lldc", "sids",
+        "in_US", "in_UN", "in_EU", "in_BRICS", "in_OECD", "in_OPEC",
+        "income_level", "frac_y04s", "sum_y02_patents", "frac_dirty_innovation"
+      ]
+    },
+    "data/processed/150426_panel.csv": {
+      "md5": "c7a23d1ec809a29e2f7bfb625ce04ddc",
+      "rows": 13398,
+      "columns": [
+        "iso3", "year", "region_name", "sub_region_code", "sub_region_name", "income_level",
+        "total_patents", "y02_patents", "fossil_fuel_patents",
+        "gdp_pc_current_usd", "gdp_pc_const_2015_usd", "trade_pct_gdp",
+        "fdi_net_inflow_pct_gdp", "gdp_const_2015_usd", "gdp_tot_nominal",
+        "population", "oil_rents_pct_gdp", "gas_rents_pct_gdp",
+        "gdp_const_2015_usd_log", "log_gdp_pc_const_2015",
+        "si_gdp", "si_gdp_nominal", "sanction_intensity_gdp_lag1", "sanction_intensity_gdp5",
+        "sanctioned_by_US", "sanctioned_by_UN", "sanctioned_by_EU", "sanctioned_by_OTHER",
+        "any_sanctions", "any_arms", "any_military", "any_trade", "any_financial", "any_travel",
+        "US_arms", "US_military", "US_trade", "US_financial", "US_travel",
+        "UN_arms", "UN_military", "UN_trade", "UN_financial", "UN_travel",
+        "EU_arms", "EU_military", "EU_trade", "EU_financial", "EU_travel",
+        "OTHER_arms", "OTHER_military", "OTHER_trade", "OTHER_financial", "OTHER_travel",
+        "si_tot_w5", "si_tot_w10", "si_tot_w15",
+        "si_xdis", "si_mdis", "si_dir_tot_trade_normalized",
+        "unilateral", "plurilateral", "multilateral",
+        "unilateral_financial", "plurilateral_financial", "multilateral_financial",
+        "unilateral_trade", "plurilateral_trade", "multilateral_trade"
+      ]
+    },
+    "data/processed/270426.csv": {
+      "md5": "9eaa645790af5b6fba2efd5d7bf0497c",
+      "rows": 13398,
+      "note": "Same as 150426_panel.csv but with an extra Unnamed: 0 index column from to_csv(index=True)"
+    }
+  }
+}

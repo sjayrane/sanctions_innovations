@@ -1,0 +1,19 @@
+name: sanctions_innovations
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pip
+  - pip:
+      - pandas
+      - numpy
+      - matplotlib
+      - requests
+      - openpyxl
+      - country_converter
+      - pycountry
+      - pyreadstat
+      - pyarrow
+      - countrygroups
+      - pyyaml
